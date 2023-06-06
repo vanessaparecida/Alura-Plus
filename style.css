@@ -26,3 +26,37 @@ body{
     align-items: center;
     text-align: center;
 }
+
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-pricipal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-pricipal);
+}
+
+.container_aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container_imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container_caixa{
+    margin: 0 6em;
+}
