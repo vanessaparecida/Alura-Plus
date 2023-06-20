@@ -27,6 +27,7 @@ body{
     text-align: center;
 }
 
+
 .container{
   height: 100vh;
   display: grid;
@@ -53,6 +54,10 @@ body{
     color: var(--cinza-secundario);
 }
 
+.container_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
 .container_imagem{
     margin: 1em 0 2em 0;
 }
