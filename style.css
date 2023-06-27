@@ -1,9 +1,9 @@
-:root{
-    --branco-pricipal:#ffffff;
-    --cinza-secundario:#c0c0c0;
-    --botao-azul:#167bf7;
-    --cor-de-fundo:#00030c;
-    --fonte-principal: "inter"
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: "Inter";
 }
 
 * {
@@ -11,15 +11,15 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco-pricipal);
+    color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
 }
 
-.principal{
+.principal {
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -27,41 +27,61 @@ body{
     text-align: center;
 }
 
-
-.container{
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 50% 50%;
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-.container_botao{
+.container_botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
-    color: var(--branco-pricipal);
+    color: var(--branco-principal);
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
 }
 
-.botao_secundario{
+.botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-pricipal);
+    border: 2px solid var(--branco-principal);   
 }
 
-.container_aviso{
+.container_aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
 }
 
-.container_titulo{
+.container_titulo {
     font-size: 28px;
     font-weight: 700;
 }
-.container_imagem{
+
+.container_imagem {
     margin: 1em 0 2em 0;
 }
 
-.container_caixa{
+.container_caixa {
     margin: 0 6em;
+}
+
+.imagem_secundario {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 46px;
+    color: var(--branco-principal);
+    margin: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--cinza-secundario);
 }
